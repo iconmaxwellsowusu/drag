@@ -93,7 +93,7 @@ String type=request.getParameter("type");
 String amount=request.getParameter("amount");
 
 Class.forName("com.mysql.jdbc.Driver");
-Connection con = DriverManager.getConnection("jdbc:mysql://eu-cdbr-west-02.cleardb.net/heroku_8f9cc2f24b1594b","b4526065f350ab","f8a08217");
+Connection con = DriverManager.getConnection("jdbc:mysql://eu-cdbr-west-02.cleardb.net/heroku_8f9cc2f24b1594b?autoReconnect=true&useSSL=false","b4526065f350ab","f8a08217");
 PreparedStatement pst = con.prepareStatement("insert into offering(branch,month,date,type1,amount) values(?,?,?,?,?)");
 
 pst.setString(1, b);
@@ -966,7 +966,7 @@ con.close();
                                                         <tbody>
                                                         <%
                                                         Class.forName("com.mysql.jdbc.Driver");
-                                                        Connection con = DriverManager.getConnection("jdbc:mysql://eu-cdbr-west-02.cleardb.net/heroku_8f9cc2f24b1594b","b4526065f350ab","f8a08217");
+                                                        Connection con = DriverManager.getConnection("jdbc:mysql://eu-cdbr-west-02.cleardb.net?autoReconnect=true&useSSL=false/heroku_8f9cc2f24b1594b","b4526065f350ab","f8a08217");
                                                         Statement st = con.createStatement();
                                                         String sql ="select *,sum(offering.amount) over (partition by type1 order by offering.id) as test from offering";
                                                          int i = 0;
