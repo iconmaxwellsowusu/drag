@@ -872,7 +872,7 @@
                                                         ResultSet rs1;
                                                         
                                                         Class.forName("com.mysql.jdbc.Driver");
-                                                        Connection con=DriverManager.getConnection("jdbc:mysql://localhost/cop","root","root");
+                                                        Connection con=DriverManager.getConnection("jdbc:mysql://eu-cdbr-west-02.cleardb.net/heroku_8f9cc2f24b1594b?useSSL=false&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC","b4526065f350ab","f8a08217");
                                                         st1=con.createStatement();
                                                         String query = "select * from copform";
                                                         int i=0;
