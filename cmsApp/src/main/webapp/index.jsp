@@ -836,83 +836,2023 @@
 													</div> 
                                                 </div>
                                                 
+                                                													
+													<!-- Modal -->
+													<div class="modal fade" id="titleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+													  <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+													    <div class="modal-content">
+													      <div class="modal-header">
+													        <h5 class="modal-title" id="exampleModalLongTitle">ADD A NEW TITLE</h5>
+													        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+													          <span aria-hidden="true">&times;</span>
+													        </button>
+													      </div>
+													      <div class="modal-body">
+													        
+													        
+													           <div class="form-group row  container justify-content-center">
+                                                                            <div class="col-sm-6">
+                                                                              
+                                                                                <input type="text" class="form-control" id="title1">
+                                                                            </div>
+                                                                            
+                                                                        </div>
+													        
+													         <div class="modal-footer">
+													        
+													        <button type="button" class="btn btn-primary" onclick="title2()"><i class="ti-plus"></i></button>
+													        <button type="reset" class="btn btn-secondary"><i class="ti-reload"></i></button>
+													        <button type="button" class="btn btn-danger" data-dismiss="modal"><i class="ti-close"></i></button>
+													        
+													      </div>
+													       
+													      </div>
+													     
+													      
+													    </div>
+													  </div>
+													</div> 
+													
+													  <!-- //////////////////////////////////////////////////  Monthly Modals      ////////////////////////////--> 
+                                                
+                                              													<div class="modal fade" id="regionModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+													  <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+													    <div class="modal-content">
+													      <div class="modal-header">
+													        <h5 class="modal-title" id="exampleModalLongTitle">ADD A NEW Region</h5>
+													        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+													          <span aria-hidden="true">&times;</span>
+													        </button>
+													      </div>
+													      <div class="modal-body">
+													        
+													        
+													           <div class="form-group row  container justify-content-center">
+                                                                            <div class="col-sm-6">
+                                                                              
+                                                                                <input type="text" class="form-control" id="region2">
+                                                                            </div>
+                                                                            
+                                                                        </div>
+													        
+													         <div class="modal-footer">
+													        
+													        <button type="submit" class="btn btn-primary" onclick="region2()"><i class="ti-plus"></i></button>
+													        <button type="reset" class="btn btn-secondary"><i class="ti-reload"></i></button>
+													        <button type="button" class="btn btn-danger" data-dismiss="modal"><i class="ti-close"></i></button>
+													        
+													      </div>
+													       
+													      </div>
+													     
+													      
+													    </div>
+													  </div>
+													</div>
+													
+													
+													
+													<div class="modal fade" id="maritalModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+													  <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+													    <div class="modal-content">
+													      <div class="modal-header">
+													        <h5 class="modal-title" id="exampleModalLongTitle">ADD A NEW MARITAL STATUS</h5>
+													        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+													          <span aria-hidden="true">&times;</span>
+													        </button>
+													      </div>
+													      <div class="modal-body">
+													        
+													        
+													           <div class="form-group row  container justify-content-center">
+                                                                            <div class="col-sm-6">
+                                                                              
+                                                                                <input type="text" class="form-control" id="marital1">
+                                                                            </div>
+                                                                            
+                                                                        </div>
+													        
+													         <div class="modal-footer">
+													        
+													        <button type="submit" class="btn btn-primary" onclick="marital1()"><i class="ti-plus" ></i></button>
+													        <button type="reset" class="btn btn-secondary"><i class="ti-reload"></i></button>
+													        <button type="button" class="btn btn-danger" data-dismiss="modal"><i class="ti-close"></i></button>
+													        
+													      </div>
+													        
+													      </div>
+													     
+													      
+													    </div>
+													  </div>
+													</div>
+													
+													
+																										<div class="modal fade" id="minisModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+													  <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+													    <div class="modal-content">
+													      <div class="modal-header">
+													        <h5 class="modal-title" id="exampleModalLongTitle">ADD A NEW MINISTERIAL TITLE</h5>
+													        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+													          <span aria-hidden="true">&times;</span>
+													        </button>
+													      </div>
+													      <div class="modal-body">
+													       
+													        
+													           <div class="form-group row  container justify-content-center">
+                                                                            <div class="col-sm-6">
+                                                                              
+                                                                                <input type="text" class="form-control" id="minis1">
+                                                                            </div>
+                                                                            
+                                                                        </div>
+													        
+													         <div class="modal-footer">
+													        
+													        <button type="submit" class="btn btn-primary" onclick="minis1()"><i class="ti-plus" ></i></button>
+													        <button type="reset" class="btn btn-secondary"><i class="ti-reload"></i></button>
+													        <button type="button" class="btn btn-danger" data-dismiss="modal"><i class="ti-close"></i></button>
+													        
+													      </div>
+													      
+													      </div>
+													     
+													      
+													    </div>
+													  </div>
+													</div> 
+													
+													
+																										<div class="modal fade" id="occuModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+													  <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+													    <div class="modal-content">
+													      <div class="modal-header">
+													        <h5 class="modal-title" id="exampleModalLongTitle">ADD A NEW OCCUPATION</h5>
+													        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+													          <span aria-hidden="true">&times;</span>
+													        </button>
+													      </div>
+													      <div class="modal-body">
+													        
+													        
+													           <div class="form-group row  container justify-content-center">
+                                                                            <div class="col-sm-6">
+                                                                              
+                                                                                <input type="text" class="form-control" id="occu1">
+                                                                            </div>
+                                                                            
+                                                                        </div>
+													        
+													         <div class="modal-footer">
+													        
+													        <button type="submit" class="btn btn-primary" onclick="occu1()"><i class="ti-plus" ></i></button>
+													        <button type="reset" class="btn btn-secondary"><i class="ti-reload"></i></button>
+													        <button type="button" class="btn btn-danger" data-dismiss="modal"><i class="ti-close"></i></button>
+													        
+													      </div>
+													        
+													      </div>
+													     
+													      
+													    </div>
+													  </div>
+													</div> 
+													
+													
+													<div class="modal fade" id="jobtModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+													  <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+													    <div class="modal-content">
+													      <div class="modal-header">
+													        <h5 class="modal-title" id="exampleModalLongTitle">ADD A NEW JOB TITLE</h5>
+													        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+													          <span aria-hidden="true">&times;</span>
+													        </button>
+													      </div>
+													      <div class="modal-body">
+													      
+													        
+													           <div class="form-group row  container justify-content-center">
+                                                                            <div class="col-sm-6">
+                                                                              
+                                                                                <input type="text" class="form-control" id="job1">
+                                                                            </div>
+                                                                            
+                                                                        </div>
+													        
+													         <div class="modal-footer">
+													        
+													        <button type="submit" class="btn btn-primary" onclick="job1()"><i class="ti-plus" ></i></button>
+													        <button type="reset" class="btn btn-secondary"><i class="ti-reload"></i></button>
+													        <button type="button" class="btn btn-danger" data-dismiss="modal"><i class="ti-close"></i></button>
+													        
+													      </div>
+													       
+													      </div>
+													     
+													      
+													    </div>
+													  </div>
+													</div>
+													
+													
+																										<div class="modal fade" id="bSectorModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+													  <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+													    <div class="modal-content">
+													      <div class="modal-header">
+													        <h5 class="modal-title" id="exampleModalLongTitle">ADD A NEW BUSINESS SECTOR</h5>
+													        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+													          <span aria-hidden="true">&times;</span>
+													        </button>
+													      </div>
+													      <div class="modal-body">
+													        
+													        
+													           <div class="form-group row  container justify-content-center">
+                                                                            <div class="col-sm-6">
+                                                                              
+                                                                                <input type="text" class="form-control" id="bs1">
+                                                                            </div>
+                                                                            
+                                                                        </div>
+													        
+													         <div class="modal-footer">
+													        
+													        <button type="submit" class="btn btn-primary" onclick="bs1()"><i class="ti-plus" ></i></button>
+													        <button type="reset" class="btn btn-secondary"><i class="ti-reload"></i></button>
+													        <button type="button" class="btn btn-danger" data-dismiss="modal"><i class="ti-close"></i></button>
+													        
+													      </div>
+													        
+													      </div>
+													     
+													      
+													    </div>
+													  </div>
+													</div>
+													
+													
+																										<div class="modal fade" id="classModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+													  <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+													    <div class="modal-content">
+													      <div class="modal-header">
+													        <h5 class="modal-title" id="exampleModalLongTitle">ADD A NEW CLASS</h5>
+													        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+													          <span aria-hidden="true">&times;</span>
+													        </button>
+													      </div>
+													      <div class="modal-body">
+													       
+													        
+													           <div class="form-group row  container justify-content-center">
+                                                                            <div class="col-sm-6">
+                                                                              
+                                                                                <input type="text" class="form-control" id="class1" >
+                                                                            </div>
+                                                                            
+                                                                        </div>
+													        
+													         <div class="modal-footer">
+													        
+													        <button type="submit" class="btn btn-primary" onclick="class1()"><i class="ti-plus" ></i></button>
+													        <button type="reset" class="btn btn-secondary"><i class="ti-reload"></i></button>
+													        <button type="button" class="btn btn-danger" data-dismiss="modal"><i class="ti-close"></i></button>
+													        
+													      </div>
+													       
+													      </div>
+													     
+													      
+													    </div>
+													  </div>
+													</div>
+													
+																										
+													<!-- Modal -->
+													<div class="modal fade" id="courseModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+													  <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+													    <div class="modal-content">
+													      <div class="modal-header">
+													        <h5 class="modal-title" id="exampleModalLongTitle">ADD A NEW COURSE</h5>
+													        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+													          <span aria-hidden="true">&times;</span>
+													        </button>
+													      </div>
+													      <div class="modal-body">
+													        
+													        
+													           <div class="form-group row  container justify-content-center">
+                                                                            <div class="col-sm-6">
+                                                                              
+                                                                                <input type="text" class="form-control" id="course1">
+                                                                            </div>
+                                                                            
+                                                                        </div>
+													        
+													         <div class="modal-footer">
+													        
+													        <button type="submit" class="btn btn-primary" onclick="course1()"><i class="ti-plus" ></i></button>
+													        <button type="reset" class="btn btn-secondary"><i class="ti-reload"></i></button>
+													        <button type="button" class="btn btn-danger" data-dismiss="modal"><i class="ti-close"></i></button>
+													        
+													      </div>
+													        
+													      </div>
+													     
+													      
+													    </div>
+													  </div>
+													</div> 
+													
+													
+												<div class="modal fade" id="reasonModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+													  <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+													    <div class="modal-content">
+													      <div class="modal-header">
+													        <h5 class="modal-title" id="exampleModalLongTitle">ADD A NEW REASON</h5>
+													        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+													          <span aria-hidden="true">&times;</span>
+													        </button>
+													      </div>
+													      <div class="modal-body">
+													        
+													        
+													           <div class="form-group row  container justify-content-center">
+                                                                            <div class="col-sm-6">
+                                                                              
+                                                                                <input type="text" class="form-control" id="reason1">
+                                                                            </div>
+                                                                            
+                                                                        </div>
+													        
+													         <div class="modal-footer">
+													        
+													        <button type="submit" class="btn btn-primary" onclick="reason1()"><i class="ti-plus" ></i></button>
+													        <button type="reset" class="btn btn-secondary"><i class="ti-reload"></i></button>
+													        <button type="button" class="btn btn-danger" data-dismiss="modal"><i class="ti-close"></i></button>
+													        
+													      </div>
+													       
+													      </div>
+													     
+													      
+													    </div>
+													  </div>
+													</div> 
+													
+													
+													<div class="modal fade" id="typeModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+													  <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+													    <div class="modal-content">
+													      <div class="modal-header">
+													        <h5 class="modal-title" id="exampleModalLongTitle">ADD A NEW MEMBERSHIP TYPE</h5>
+													        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+													          <span aria-hidden="true">&times;</span>
+													        </button>
+													      </div>
+													      <div class="modal-body">
+													        
+													        
+													           <div class="form-group row  container justify-content-center">
+                                                                            <div class="col-sm-6">
+                                                                              
+                                                                                <input type="text" class="form-control" id="type1">
+                                                                            </div>
+                                                                            
+                                                                        </div>
+													        
+													         <div class="modal-footer">
+													        
+													        <button type="submit" class="btn btn-primary" onclick="type1()"><i class="ti-plus" ></i></button>
+													        <button type="reset" class="btn btn-secondary"><i class="ti-reload"></i></button>
+													        <button type="button" class="btn btn-danger" data-dismiss="modal"><i class="ti-close"></i></button>
+													        
+													      </div>
+													       
+													      </div>
+													     
+													      
+													    </div>
+													  </div>
+													</div> 
+													
+													
+													
+													
+													
+                                              
+                                                
+                                                
                                                 
                                                 <div class="card-block">
                                                 <div class="card-block table-border-style">
-                                                <!-- ------------------------------------- table goes here -------------------------------      -->
-                                                                                       
-												 <div class="card-block table-border-style">
-                                                <div class="table-responsive">
-                                                    <table class="table table-hover">
-                                                        <thead>
-                                                            <tr>
-                                                                <th>ID</th>
-                                                                <th>TITLE</th>
-                                                                <th>MEMBER NAME</th>
-                                                                <th>ASSEMBLY</th>
-                                                                <th>MEMBER TYPE</th>
-                                                                <th>GENDER</th>
-                                                                <th>RESIDENT ADDRESS</th>
-                                                                <th>MOBILE PHONE</th>
-                                                                <th>HOME PHONE</th>
-                                                                <th>EMPLOYMENT STATUS</th>
-                                                                <th>MEMBERSHIP DATE</th>
-                                                                <th>MARITAL STATUS</th>
-                                                                <th>OCCUPATION/PROFFESSION</th>
-                                                                <th>Passport</th>
-                                                                <th>Actions</th>
-                                                               
-                                                            </tr>
-                                                        </thead>
-                                                        <tbody>
-                                                        
-                                                        <%
-                                                        
-                                                        Statement st1;
-                                                        ResultSet rs1;
-                                                        
-                                                        Class.forName("com.mysql.jdbc.Driver");
-                                                        Connection con=DriverManager.getConnection("jdbc:mysql://localhost/cop","root","root");
-                                                        st1=con.createStatement();
-                                                        String query = "select * from copform";
-                                                        int i=0;
-                                                        rs1 = st1.executeQuery(query);
-                                                        while(rs1.next()){
-                                                        i+=1;
-                                                        %>
-                                                            <tr>
-                                                                <th scope="row"><a href="#"><%out.println("COPM"+i); %></a></th>
-                                                                <td><%out.println(rs1.getString("title")); %></td>
-                                                                <td><a href="#"><%out.println(rs1.getString("name")); %></a></td>
-                                                                <td><%out.println(rs1.getString("assembly")); %></td>
-                                                                <td><%out.println(rs1.getString("mtype")); %></td>
-                                                                <td><%out.println(rs1.getString("gender")); %></td>
-                                                                <td><%out.println(rs1.getString("res")); %></td>
-                                                                <td><%out.println(rs1.getString("mobile")); %></td>
-                                                                <td><%out.println(rs1.getString("homephone")); %></td>
-                                                                <td><%out.println(rs1.getString("empStatus")); %></td>
-                                                                <td><%out.println(rs1.getString("mDate")); %></td>
-                                                                <td><%out.println(rs1.getString("marital")); %></td>
-                                                                <td><%out.println(rs1.getString("occu")); %></td>
-                                                                <td><a href="vpass.jsp?id=<%=rs1.getString("ID") %>" title="Veiw"><img src="NewFile1.jsp?id=<%=rs1.getString("ID")%>" width=50 height=50></a></td>
-                                                                
-                                                                 <td>
-                                                                 <button onclick="search(<%=rs1.getString(1)%>)" title="Update" data-toggle="modal" data-target="#updateModal"><i class="ti-pencil-alt" style="color:orange; cursor:pointer; padding:5px;"></i></button>
-											                     <button onclick="testDelete(<%=rs1.getString(1)%>)" title="Delete"><i class="ti-trash" style="color:red; cursor:pointer; padding:5px;"></i></button>
-                                                                </td>
-                                                            </tr>
-                                                          
-                                                           <%} %>
-                                                        </tbody>
-                                                    </table>
-                                                </div>
-                                            </div>										
+                                                <!-- ------------------------------------- Form goes here -------------------------------      -->
+                                                <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+												 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+												<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.13/js/bootstrap-multiselect.js"></script>
+												
+												
+												
+												
+												 <script type="text/javascript">
+															 
+															 $(document).ready(function(){
+																// Prepare the preview for profile picture
+																    $("#wizard-picture").change(function(){
+																        readURL(this);
+																    });
+																});
+																function readURL(input) {
+																    if (input.files && input.files[0]) {
+																        var reader = new FileReader();
+
+																        reader.onload = function (e) {
+																            $('#wizardPicturePreview').attr('src', e.target.result).fadeIn('slow');
+																        }
+																        reader.readAsDataURL(input.files[0]);
+																    }
+																}
+															 
+															 </script>                                                       
+															  <style>
+															  
+															  /*Profile Pic Start*/
+															.picture-container{
+															    position: relative;
+															    cursor: pointer;
+															    text-align: center;
+															}
+															.picture{
+															    width: 206px;
+															    height: 206px;
+															    background-color: #999999;
+															    border: 4px solid #CCCCCC;
+															    color: #FFFFFF;
+															    border-radius: 50%;
+															    margin: 0px auto;
+															    overflow: hidden;
+															    transition: all 0.2s;
+															    -webkit-transition: all 0.2s;
+															}
+															.picture:hover{
+															    border-color: #2ca8ff;
+															}
+															.content.ct-wizard-green .picture:hover{
+															    border-color: #05ae0e;
+															}
+															.content.ct-wizard-blue .picture:hover{
+															    border-color: #3472f7;
+															}
+															.content.ct-wizard-orange .picture:hover{
+															    border-color: #ff9500;
+															}
+															.content.ct-wizard-red .picture:hover{
+															    border-color: #ff3b30;
+															}
+															.picture input[type="file"] {
+															    cursor: pointer;
+															    display: block;
+															    height: 100%;
+															    left: 0;
+															    opacity: 0 !important;
+															    position: absolute;
+															    top: 0;
+															    width: 100%;
+															}
+															
+															.picture-src{
+															    width: 100%;
+															    height: 100%;
+															    
+															}
+															/*Profile Pic End*/
+															         
+															  
+															  </style>                                               
+															<form id="regForm" action="insert" method="post" enctype="multipart/form-data">
+															  
+															       <div class="row">
+																			          <div class="picture-container">
+																					        <div class="picture">
+																					            <img src="assets/images/cash.jpeg" class="picture-src" id="wizardPicturePreview" title="" name="im">
+																					            <input type="file" id="wizard-picture" name="profile" accept="image/*" capture >
+																					        </div>
+																					         <h6 class="">Capture/Choose Picture</h6>
+																					         
+																					    <button class="btn waves-effect waves-dark btn-inverse btn-outline-inverse"><i class="ti-email"></i></button>
+																					    <button class="btn waves-effect waves-dark btn-inverse btn-outline-inverse"><i class="fa-solid fa-phone"></i></button>
+																					    <button class="btn waves-effect waves-dark btn-inverse btn-outline-inverse"><i class="fa-solid fa-location-dot"></i></button>
+																					      <br> 
+																					      <br>  
+																					    <button type="submit" class="btn waves-effect waves-light btn-grd-success"><i class="ti-save-alt"></i> Save</button>   
+																					      <br>
+																					      <br>
+																					    <button class="btn waves-effect waves-dark btn-inverse btn-outline-inverse"><i class="ti-trash"></i></button>
+																					    <button class="btn waves-effect waves-dark btn-inverse btn-outline-inverse"><i class="ti-printer"></i></button>
+																					        
+																					    </div>
+																					    
+																					    
+																					    <section id="tabs" class="project-tab">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12" >
+                        <nav>
+                            <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+                                <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Personal Details</a>
+                                <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Membership</a>
+                                <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Work/Education</a>
+                                <a class="nav-item nav-link" id="nav-contact-tab1" data-toggle="tab" href="#nav-contact1" role="tab" aria-controls="nav-contact1" aria-selected="false">Status</a>
+                                <a class="nav-item nav-link" id="nav-contact-tab2" data-toggle="tab" href="#nav-contact2" role="tab" aria-controls="nav-contact2" aria-selected="false">Family</a>
+                                <a class="nav-item nav-link" id="nav-contact-tab3" data-toggle="tab" href="#nav-contact3" role="tab" aria-controls="nav-contact3" aria-selected="false">Emergency</a>
+                                <a class="nav-item nav-link" id="nav-contact-tab4" data-toggle="tab" href="#nav-contact4" role="tab" aria-controls="nav-contact4" aria-selected="false">Note</a>
+                            </div>
+                        </nav>
+                        <div class="tab-content" id="nav-tabContent">
+                        <br>
+                            <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                                															   <div class="form-group row  container justify-content-center">
+                                                                            <div class="col-sm-6">
+                                                                              <label>Member ID</label>
+                                                                                <input type="text" class="form-control" value="(New)" name="uName" readonly>
+                                                                            </div>
+                                                                            
+                                                                            <div class="col-sm-6">
+                                                                              <label>Residential Address</label>
+                                                                                <input type="text" class="form-control" name="res" required>
+                                                                            </div>
+                                                                            <!-- --------------------------/////////// drop down with button----------------------- -->
+                                                                            <div class="col-sm-6">
+                                                                              <label>Select title</label>
+                                                                                 <div class="input-group">
+																	                        <select class="form-control" id="title2" name="title2">
+																	                         
+																	                          
+																	                        </select>
+																	                        <span class="input-group-btn" style="width:0px;"></span>
+																	                        
+																	                        <span class="input-group-btn">
+																	                        <button class="btn waves-effect waves-light btn-grd-primary" type="button" title="add title" data-toggle="modal" data-target="#titleModal"><i class="ti-menu"></i></button>
+																	                        </span>
+																	                     </div>
+                                                                            </div>
+                                                                            
+                                                                            <div class="col-sm-6">
+                                                                              <label>Home Town</label>
+                                                                                <input type="text" class="form-control" name="homeT" required>
+                                                                            </div>
+                                                                            
+                                                                            <div class="col-sm-6">
+                                                                              <label>Full Name</label>
+                                                                                <input type="text" class="form-control" name="name" required>
+                                                                            </div>
+                                                                            
+                                                                            <div class="col-sm-6">
+                                                                              <label>Region</label>
+                                                                                <div class="input-group">
+																	                        <select class="form-control" id="region" name="region">
+																	                           <option value="">Select</option>
+																	                          
+																	                        </select>
+																	                        <span class="input-group-btn" style="width:0px;"></span>
+																	                        
+																	                        <span class="input-group-btn">
+																	                        <button class="btn waves-effect waves-light btn-grd-primary" type="button" title="add title" data-toggle="modal" data-target="#regionModal"><i class="ti-menu"></i></button>
+																	                        </span>
+																	                     </div>
+                                                                            </div>
+                                                                            
+                                                                            <div class="col-sm-6">
+                                                                              <label>Gender</label>
+                                                                                 <select class="form-control" name="gender">
+																	                           <option value="ist">Male</option>
+																	                           <option value="ank">Female</option>
+																	                         
+																	                        </select>
+                                                                            </div>
+                                                                            
+                                                                            <div class="col-sm-6">
+                                                                              <label>Mobile Phone</label>
+                                                                                <input type="text" class="form-control" name="mobile" required>
+                                                                            </div>
+                                                                            
+                                                                            <div class="col-sm-6">
+                                                                              <label>Date of birth</label>
+                                                                                <input type="Date" class="form-control" name="dob" required>
+                                                                            </div>
+                                                                            
+                                                                            <div class="col-sm-6">
+                                                                              <label>Home Phone</label>
+                                                                                <input type="text" class="form-control" name="homephone" required>
+                                                                            </div>
+                                                                            
+                                                                                <!-- --------------------------/////////// drop down with button----------------------- -->
+                                                                            <div class="col-sm-6">
+                                                                              <label>Marital Status</label>
+                                                                                 <div class="input-group">
+																	                        <select class="form-control" id="marital" name="marital">
+																	                           <option value="ist">Single</option>
+																	                           
+																	                        </select>
+																	                        <span class="input-group-btn" style="width:0px;"></span>
+																	                        
+																	                        <span class="input-group-btn">
+																	                        <button class="btn waves-effect waves-light btn-grd-primary" type="button" data-toggle="modal" data-target="#maritalModal" title="add title"><i class="ti-menu"></i></button>
+																	                        </span>
+																	                     </div>
+                                                                            </div>
+                                                                            
+                                                                              <div class="col-sm-6">
+                                                                              <label>Email</label>
+                                                                                <input type="text" class="form-control" name="email" required>
+                                                                            </div>
+                                                                            
+                                                                              <div class="col-sm-6">
+                                                                              <label>Number Of Children</label>
+                                                                                <input type="text" class="form-control" name="nChildren" required>
+                                                                            </div>
+                                                                            
+                                                                             <div class="col-sm-6">
+                                                                              <label>Name Of Spouse</label>
+                                                                                <input type="text" class="form-control" name="spouse" required>
+                                                                            </div>
+                                                                        </div>
+                            </div>
+                            <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                                                                     <div class="form-group row  container justify-content-center">
+                                                                            <div class="col-sm-6">
+                                                                              <label>Membership Date</label>
+                                                                                <input type="Date" class="form-control" name="mDate" required>
+                                                                            </div>
+                                                                            
+                                                                          <div class="col-sm-6">
+                                                                              <label>Assembly</label>
+                                                                                <select class="form-control" name="assembly">
+																	                           <option >English</option>
+																	                           <option >Local</option>
+																	                         
+																	                        </select>
+                                                                            </div>
+                                                                            <div class="col-sm-6">
+                                                                              <label>Membership type</label>
+                                                                                 <div class="input-group">
+																	                        <select class="form-control" id="mtype" name="mtype">
+																	                           <option value="ist">Select type</option>
+																	                           
+																	                        </select>
+																	                        <span class="input-group-btn" style="width:0px;"></span>
+																	                        
+																	                        <span class="input-group-btn">
+																	                        <button class="btn waves-effect waves-light btn-grd-primary" type="button" data-toggle="modal" data-target="#typeModal" title="add title"><i class="ti-menu"></i></button>
+																	                        </span>
+																	                     </div>
+                                                                            </div>
+                                                                                <!-- --------------------------/////////// drop down with button----------------------- -->
+                                                                            <div class="col-sm-6">
+                                                                              <label>Ministerial Title</label>
+                                                                                 <div class="input-group">
+																	                        <select class="form-control" id="minis" name="minis">
+																	                           <option value="">title</option>
+																	                           
+																	                        </select>
+																	                        <span class="input-group-btn" style="width:0px;"></span>
+																	                        
+																	                        <span class="input-group-btn">
+																	                        <button class="btn waves-effect waves-light btn-grd-primary" type="button" data-toggle="modal" data-target="#minisModal" title="add title"><i class="ti-menu"></i></button>
+																	                        </span>
+																	                     </div>
+                                                                            </div>
+                                                                            
+                                                                            
+																			
+                                                                            <div class="col-sm-6">
+                                                                            <label>Position</label> <!-- Drop down with Check Boxes -->
+                                                                            <div class="input-group">
+                                                                             
+                                                                                
+																				<select multiple="multiple"  id="position" name="position">
+																				  
+																				 
+																				</select>
+																					
+																					<span class="input-group-btn" style="width:0px;"></span>
+																	                        
+																	                        <span class="input-group-btn">
+																	                        <button class="btn waves-effect waves-light btn-grd-primary" type="button" data-toggle="modal" data-target="#positionModal" title="add title"><i class="ti-menu"></i></button>
+																	                        </span>
+                                                                            </div>
+                                                                            </div>
+                                                                           
+                                                                           
+                                                                            <!-- /////////////////////// dropdown check box solve //////////////////////////// -->
+                                                                            
+                                                                            
+																				
+                                                                            <div class="col-sm-6">
+                                                                             <label>Department/Squad</label> <!-- Drop down with Check Boxes -->
+                                                                             <div class="input-group">
+                                                                             
+                                                                                
+																				<select multiple="multiple"  id="squad" name="squad">
+																				  
+																				 
+																				</select>
+																					
+																					<span class="input-group-btn" style="width:0px;"></span>
+																	                        
+																	                        <span class="input-group-btn">
+																	                        <button class="btn waves-effect waves-light btn-grd-primary" type="button" data-toggle="modal" data-target="#squadModal" title="add title"><i class="ti-menu"></i></button>
+																	                        </span>
+                                                                            </div>
+                                                                            </div>
+                                                                            
+                                                                  
+                                                                            
+                                                                            
+                                                                            <div class="col-sm-12">
+                                                                              <label>Former Church</label>
+                                                                                <input type="text" class="form-control" name="fChurch" required>
+                                                                            </div>
+                                                                            
+                                                                              <div class="col-sm-6">
+                                                                              <label>Water Baptism (Tick if yes)</label>
+                                                                                <input type="checkbox" class="form-control" name="wbap" value="yes">
+                                                                            </div>
+                                                                            
+                                                                              <div class="col-sm-6">
+                                                                              <label>Holy Ghost Baptism (Tick if yes)</label>
+                                                                                <input type="checkbox" class="form-control" name="hbap" value="yes">
+                                                                            </div>
+                                                                            
+                                                                               
+                                                                            
+                                                                             
+                                                                            
+                                                                           
+                                                                        </div>
+                                                                        
+                                                                        
+																 <div class="card bg-light mb-3">
+																  <h5 class="card-header">Groups</h5>
+																  <div class="card-body">
+																    
+																    <div class="row">
+																     <div class="col-sm-6">
+                                                                            <label>Group</label> <!-- Drop down with Check Boxes -->
+                                                                             <div class="input-group">
+                                                                              
+                                                                                  <select id="group" multiple="multiple" name="group">
+																					  <option value=''>Select Group</option>
+																					 
+																					</select>
+																					
+																					<span class="input-group-btn" style="width:0px;"></span>
+																	                        
+																	                        <span class="input-group-btn">
+																	                        <button class="btn waves-effect waves-light btn-grd-primary" type="button" data-toggle="modal" data-target="#groupModal" title="add title"><i class="ti-menu"></i></button>
+																	                        </span>
+                                                                            </div>
+                                                                            </div>
+                                                                            <div class="col-sm-6">
+                                                                            <label>Section</label> <!-- Drop down with Check Boxes -->
+                                                                             <div class="input-group">
+                                                                              
+                                                                                  <select id="section" multiple="multiple" name="section">
+																					  <option value=''>Select Section</option>
+																					  
+																					</select>
+																					
+																					<span class="input-group-btn" style="width:0px;"></span>
+																	                        
+																	                        <span class="input-group-btn">
+																	                        <button class="btn waves-effect waves-light btn-grd-primary" type="button" data-toggle="modal" data-target="#sectionModal" title="add title"><i class="ti-menu"></i></button>
+																	                        </span>
+                                                                            </div>
+                                                                            </div>
+																    </div>
+																  </div>
+																</div>
+																 <div class="card bg-light mb-3">
+																  <h5 class="card-header">Ministries</h5>
+																  <div class="card-body">
+																    <div align="center">
+																     <div class="col-sm-6">
+                                                                            <label>Ministry</label> <!-- Drop down with Check Boxes -->
+                                                                             <div class="input-group">
+                                                                              
+                                                                                  <select id="pos" multiple="multiple" multiple data-live-search="true" name="pos">
+																					  
+																					 
+																					</select>
+																					
+																					<span class="input-group-btn" style="width:0px;"></span>
+																	                        
+																	                        <span class="input-group-btn">
+																	                        <button class="btn waves-effect waves-light btn-grd-primary" type="button" data-toggle="modal" data-target="#posModal" title="add title"><i class="ti-menu"></i></button>
+																	                        </span>
+                                                                            </div>
+                                                                            </div>
+																    </div>
+																  </div>
+																</div>                           
+                            </div>
+                            <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                               															  
+																			<br>
+															  
+															    <div class="form-group row  container justify-content-center">
+                                                                            <div class="col-sm-6">
+                                                                              <label>Employment Status</label>
+                                                                                <select class="form-control" name="empStatus">
+																	                           <option >Unemployed</option>
+																	                           <option >Employed</option>
+																	                           <option >Self Employed</option>
+																	                           <option >Student</option>
+																	                        </select>
+                                                                            </div>
+                                                                            
+                                                                               <!-- --------------------------/////////// drop down with button----------------------- -->
+                                                                            <div class="col-sm-6">
+                                                                              <label>Occupation</label>
+                                                                                 <div class="input-group">
+																	                        <select class="form-control" id="occu" name="occu">
+																	                           <option value="">Select Occupation</option>
+																	                           
+																	                        </select>
+																	                        <span class="input-group-btn" style="width:0px;"></span>
+																	                        
+																	                        <span class="input-group-btn">
+																	                        <button class="btn waves-effect waves-light btn-grd-primary" type="button" title="add title" data-toggle="modal" data-target="#occuModal"><i class="ti-menu"></i></button>
+																	                        </span>
+																	                     </div>
+                                                                            </div>
+                                                                                  <!-- --------------------------/////////// drop down with button----------------------- -->
+                                                                            <div class="col-sm-6">
+                                                                              <label>Job Title</label>
+                                                                                 <div class="input-group">
+																	                        <select class="form-control" id="job" name="job">
+																	                           <option value="ist">Select Job title</option>
+																	                           
+																	                        </select>
+																	                        <span class="input-group-btn" style="width:0px;"></span>
+																	                        
+																	                        <span class="input-group-btn">
+																	                        <button class="btn waves-effect waves-light btn-grd-primary" type="button" title="add title" data-toggle="modal" data-target="#jobtModal"><i class="ti-menu"></i></button>
+																	                        </span>
+																	                     </div>
+                                                                            </div>
+                                                                                  <!-- --------------------------/////////// drop down with button----------------------- -->
+                                                                            <div class="col-sm-6">
+                                                                              <label>Business Sector</label>
+                                                                                 <div class="input-group">
+																	                        <select class="form-control" id="bs" name="bs">
+																	                           <option value="">Select Business Sector</option>
+																	                          
+																	                        </select>
+																	                        <span class="input-group-btn" style="width:0px;"></span>
+																	                        
+																	                        <span class="input-group-btn">
+																	                        <button class="btn waves-effect waves-light btn-grd-primary" type="button" title="add title" data-toggle="modal" data-target="#bSectorModal"><i class="ti-menu"></i></button>
+																	                        </span>
+																	                     </div>
+                                                                            </div>
+                                                                                  <!-- --------------------------/////////// drop down with button----------------------- -->
+                                                                              
+                                                                                    <!-- ----------------------------- Calculated Values ----------------------------------------- --> 
+                                                                        </div>
+                                                                          
+                                                                      <hr style="border: 1px solid orange; margin-bottom:0px;">
+                                                                      <div align="center"><h6 style="margin-top:15px">SCHOOL</h6></div>
+                                                                      <hr style="border: 1px solid orange; margin-bottom:0px;">
+																			<br>    
+                                                                          <div class="form-group row  container justify-content-center">   
+                                                                                  
+                                                                            <div class="col-sm-6">
+                                                                            
+                                                                            
+                                                                              <label>Class</label>
+                                                                                 <div class="input-group">
+																	                        <select class="form-control" id="class" name="class">
+																	                           <option value="">Select Class</option>
+																	                          
+																	                        </select>
+																	                        <span class="input-group-btn" style="width:0px;"></span>
+																	                        
+																	                        <span class="input-group-btn">
+																	                        <button class="btn waves-effect waves-light btn-grd-primary" type="button" title="add title" data-toggle="modal" data-target="#classModal"><i class="ti-menu"></i></button>
+																	                        </span>
+																	                     </div>
+                                                                            </div>
+                                                                                  <!-- --------------------------/////////// drop down with button----------------------- -->
+                                                                            <div class="col-sm-6">
+                                                                              <label>Course</label>
+                                                                                 <div class="input-group">
+																	                        <select class="form-control" id="course" name="course">
+																	                           <option value="">Select course</option>
+																	                          
+																	                        </select>
+																	                        <span class="input-group-btn" style="width:0px;"></span>
+																	                        
+																	                        <span class="input-group-btn">
+																	                        <button class="btn waves-effect waves-light btn-grd-primary" type="button" title="add title" data-toggle="modal" data-target="#courseModal"><i class="ti-menu"></i></button>
+																	                        </span>
+																	                     </div>
+                                                                            </div>
+                                                                            <div class="col-sm-6">
+                                                                              <label>School Name</label>
+                                                                                <input type="text" class="form-control" name="school" required>
+                                                                            </div>
+                                                                            <div class="col-sm-6">
+                                                                              <label>Institution Name</label>
+                                                                                <input type="text" class="form-control" name="institution" required>
+                                                                            </div>
+                                                                            
+                                                                              <div class="col-sm-6">
+                                                                              <label>Educational Level</label>
+                                                                                <input type="text" class="form-control" name="edul" required>
+                                                                            </div>
+                                                                            
+                                                                              <div class="col-sm-6">
+                                                                              <label>Comencement Date</label>
+                                                                                <input type="Date" class="form-control" name="cdate" required>
+                                                                            </div>
+                                                                            
+                                                                              <div class="col-sm-6">
+                                                                              <label>Completion Date</label>
+                                                                                <input type="Date" class="form-control" name="comdate" required>
+                                                                            </div>
+                                                                        </div>
+                            </div>
+                            
+                            <div class="tab-pane fade" id="nav-contact1" role="tabpanel" aria-labelledby="nav-contact-tab1">
+<div class="form-group row  container justify-content-center">
+                                                                            <div class="col-sm-6">
+                                                                              <label>Membership Status</label>
+                                                                                <select class="form-control" name="mstatus">
+																	                           <option >Unemployed</option>
+																	                           <option >Employed</option>
+																	                           <option >Self Employed</option>
+																	                           <option >Student</option>
+																	                        </select>
+                                                                            </div>
+                                                                            
+                                                                         <div class="col-sm-6">
+                                                                              <label>District Pastor</label>
+                                                                                <select class="form-control" name="districtp">
+																	                           <option >Unemployed</option>
+																	                           <option >Employed</option>
+																	                           <option >Self Employed</option>
+																	                           <option >Student</option>
+																	                        </select>
+                                                                            </div>
+                                                                            <div class="col-sm-6">
+                                                                              <label>Presiding Elder</label>
+                                                                                <select class="form-control" name="pElder">
+																	                           <option >Unemployed</option>
+																	                           <option >Employed</option>
+																	                           <option >Self Employed</option>
+																	                           <option >Student</option>
+																	                        </select>
+                                                                            </div>
+                                                                            <div class="col-sm-6">
+                                                                              <label>Reason</label>
+                                                                                 <div class="input-group">
+																	                        <select class="form-control" id="reason" name="reason">
+																	                           <option value="">Select Reason</option>
+																	                          
+																	                        </select>
+																	                        <span class="input-group-btn" style="width:0px;"></span>
+																	                        
+																	                        <span class="input-group-btn">
+																	                        <button class="btn waves-effect waves-light btn-grd-primary" type="button" title="add title" data-toggle="modal" data-target="#reasonModal"><i class="ti-menu"></i></button>
+																	                        </span>
+																	                     </div>
+                                                                            </div>
+                                                                            <div class="col-sm-6">
+                                                                              <label>From Assembly</label>
+                                                                                <input type="text" class="form-control" name="fromA" required>
+                                                                            </div>
+                                                                            
+                                                                              <div class="col-sm-6">
+                                                                              <label>To Assembly</label>
+                                                                                <input type="text" class="form-control" name="toA" required>
+                                                                            </div>
+                                                                            
+                                                                              <div class="col-sm-6">
+                                                                              <label>Date</label>
+                                                                                <input type="Date" class="form-control" name="date" required>
+                                                                            </div>
+                                                                            
+                                                                              <div class="col-sm-6">
+                                                                              <label>Purpose</label>
+                                                                                <textarea class="form-control" name="purpose" required></textarea>
+                                                                            </div>
+                                                                        </div>
+                            </div>
+                            
+                            <div class="tab-pane fade" id="nav-contact2" role="tabpanel" aria-labelledby="nav-contact-tab2">
+                                 
+                                 															    <div class="form-group row  container justify-content-center">
+                                                                            <div class="col-sm-6">
+                                                                              <label>Member Name</label>
+                                                                                <input type="text" class="form-control" name="mName" required>
+                                                                            </div>
+                                                                            
+                                                                          <div class="col-sm-6">
+                                                                              <label>Relationship</label>
+                                                                                <input type="text" class="form-control" name="relationship" required>
+                                                                            </div>
+                                                                           
+                                                                           <div class="col-sm-6">
+                                                                              <label>Family Name</label>
+                                                                                <input type="text" class="form-control" name="fName" required>
+                                                                            </div>
+                                                                           
+                                                                        </div>
+                                 
+                            </div>
+                            
+                            <div class="tab-pane fade" id="nav-contact3" role="tabpanel" aria-labelledby="nav-contact-tab3">
+
+                               															    <div class="form-group row  container justify-content-center">
+                                                                            <div class="col-sm-6">
+                                                                              <label> Name</label>
+                                                                                <input type="text" class="form-control" name="emegencyN" required>
+                                                                            </div>
+                                                                            
+                                                                          
+                                                                            
+                                                                              <div class="col-sm-6">
+                                                                              <label>Mobile Number</label>
+                                                                                <input type="text" class="form-control" name="mobileNumber" required>
+                                                                            </div>
+                                                                            
+                                                                              <div class="col-sm-6">
+                                                                              <label>Relationship</label>
+                                                                                <input type="text" class="form-control" name="relationship1" required>
+                                                                            </div>
+                                                                            
+                                                                              <div class="col-sm-6">
+                                                                              <label>Home Phone</label>
+                                                                                <input type="text" class="form-control" name="homephone1" required>
+                                                                            </div>
+                                                                        </div>
+                               
+                            </div>
+                            
+                            <div class="tab-pane fade" id="nav-contact4" role="tabpanel" aria-labelledby="nav-contact-tab4">
+                                                               															    <div class="form-group row  container justify-content-center">
+                                                                            <div class="col-sm-6">
+                                                                              <label>Name</label>
+                                                                                <input type="text" class="form-control" name="noteName" required>
+                                                                            </div>
+                                                                            
+                                                                          
+                                                                            
+                                                                              <div class="col-sm-6">
+                                                                              <label>Date</label>
+                                                                                <input type="Date" class="form-control" name="notedate" required>
+                                                                            </div>
+                                                                            
+                                                                              <div class="col-sm-6">
+                                                                              <label>Created By</label>
+                                                                                <input type="text" class="form-control" name="createdb" required>
+                                                                            </div>
+                                                                            
+                                                                              <div class="col-sm-12">
+                                                                              <label>Note</label>
+                                                                                <textarea class="form-control" name="note" required></textarea>
+                                                                            </div>
+                                                                        </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+																				
+																	</div>
+																	
+																	
+																	
+															</form>
+												
 												
 
                                                 
                                                 
                                                 
-                                               
+                                                <script >
+														$(document).ready(function(){
+														position();
+														})
+														function position()
+														{
+														$.ajax({
+														  url: "drop.jsp",
+														  type: "GET",
+														  cache: false,
+														  dataType:'JSON',
+														  data:{"position":'position'},
+														  
+														  success: function(data) {
+															  console.log(data);
+														 $('#position').empty();
+														    $('#position').multiselect('destroy')
+														    for (var i = 0; i < data.length; i++) {
+														     $('#position').append("<option value=\"" + data[i].area + "\">" +  data[i].area + "</option>");
+														    }
+														    $('#position').multiselect('refresh');
+														    alert("you called me again");
+														  }
+														})
+														
+														}
+														
+														
+														$(document).ready(function(){
+															squad();
+															})
+															function squad()
+															{
+															$.ajax({
+															  url: "drop.jsp",
+															  type: "GET",
+															  cache: false,
+															  dataType:'JSON',
+															  data:{"squad":'squad'},
+															  
+															  success: function(data) {
+																  console.log(data);
+															 $('#squad').empty();
+															    $('#squad').multiselect('destroy')
+															    for (var i = 0; i < data.length; i++) {
+															     $('#squad').append("<option value=\"" + data[i].area + "\">" +  data[i].area + "</option>");
+															    }
+															    $('#squad').multiselect('refresh');
+															    alert("you called squad again");
+															  }
+															})
+															
+															}
+														
+														
+														$(document).ready(function(){
+															group();
+															})
+															function group()
+															{
+															$.ajax({
+															  url: "drop.jsp",
+															  type: "GET",
+															  cache: false,
+															  dataType:'JSON',
+															  data:{"group":'group'},
+															  
+															  success: function(data) {
+																  console.log(data);
+															 $('#group').empty();
+															    $('#group').multiselect('destroy')
+															    for (var i = 0; i < data.length; i++) {
+															     $('#group').append("<option value=\"" + data[i].area + "\">" +  data[i].area + "</option>");
+															    }
+															    $('#group').multiselect('refresh');
+															    alert("you called group again");
+															  }
+															})
+															
+															}
+														
+														
+														$(document).ready(function(){
+															section();
+															})
+															function section()
+															{
+															$.ajax({
+															  url: "drop.jsp",
+															  type: "GET",
+															  cache: false,
+															  dataType:'JSON',
+															  data:{"section":'section'},
+															  
+															  success: function(data) {
+																  console.log(data);
+															 $('#section').empty();
+															    $('#section').multiselect('destroy')
+															    for (var i = 0; i < data.length; i++) {
+															     $('#section').append("<option value=\"" + data[i].area + "\">" +  data[i].area + "</option>");
+															    }
+															    $('#section').multiselect('refresh');
+															    alert("you called section again");
+															  }
+															})
+															
+															}
+														
+														
+														$(document).ready(function(){
+															title();
+															})
+															function title()
+															{
+															$.ajax({
+															  url: "drop.jsp",
+															  type: "GET",
+															  cache: false,
+															  dataType:'JSON',
+															  data:{"pos":'pos'},
+															  
+															  success: function(data) {
+																  console.log(data);
+															 $('#pos').empty();
+															    $('#pos').multiselect('destroy')
+															    for (var i = 0; i < data.length; i++) {
+															     $('#pos').append("<option value=\"" + data[i].area + "\">" +  data[i].area + "</option>");
+															    }
+															    $('#pos').multiselect('refresh');
+															    alert("you called pos again");
+															  }
+															})
+															
+															}
+														
+														
+														
+														 function position1(){
+												        	  
+														      alert("position called");  
+												        	  $.ajax({
+												        		  
+												        		  type:"POST",
+												        		  url:"drop.jsp",
+												        		  data:{"position1":$("#position1").val()},
+												        		  
+												        		  success:function(msg){
+												        			  var obj = JSON.parse(msg);
+												        			  
+												        			  position();
+												        			  alert("position called");
+												        		  },
+												        		  error(err){
+												        			  alertify.error('Error');
+												        		  }
+												        		  
+												        		  
+												        	  })
+												        	  
+												          }
+														 
+														 function squad1(){
+												        	  
+														        
+												        	  $.ajax({
+												        		  
+												        		  type:"POST",
+												        		  url:"drop.jsp",
+												        		  data:{"squad1":$("#squad1").val()},
+												        		  
+												        		  success:function(msg){
+												        			  var obj = JSON.parse(msg);
+												        			 
+												        			  squad();
+												        		  },
+												        		  error(err){
+												        			  alertify.error('Error');
+												        		  }
+												        		  
+												        		  
+												        	  })
+												        	  
+												          }
+														 
+														 
+														 function group1(){
+												        	  
+														        
+												        	  $.ajax({
+												        		  
+												        		  type:"POST",
+												        		  url:"drop.jsp",
+												        		  data:{"group1":$("#group1").val()},
+												        		  
+												        		  success:function(msg){
+												        			  var obj = JSON.parse(msg);
+												        			 
+												        			  group();
+												        		  },
+												        		  error(err){
+												        			  alertify.error('Error');
+												        		  }
+												        		  
+												        		  
+												        	  })
+												        	  
+												          }
+														 
+														 function pos1(){
+												        	  
+														        
+												        	  $.ajax({
+												        		  
+												        		  type:"POST",
+												        		  url:"drop.jsp",
+												        		  data:{"pos1":$("#pos1").val()},
+												        		  
+												        		  success:function(msg){
+												        			  var obj = JSON.parse(msg);
+												        			 
+												        			  title();
+												        		  },
+												        		  error(err){
+												        			  alertify.error('Error');
+												        		  }
+												        		  
+												        		  
+												        	  })
+												        	  
+												          }
+														 
+														  function section1(){
+												        	  
+														        
+												        	  $.ajax({
+												        		  
+												        		  type:"POST",
+												        		  url:"drop.jsp",
+												        		  data:{"section1":$("#section1").val()},
+												        		  
+												        		  success:function(msg){
+												        			  var obj = JSON.parse(msg);
+												        			 
+												        			  section();
+												        		  },
+												        		  error(err){
+												        			  alertify.error('Error');
+												        		  }
+												        		  
+												        		  
+												        	  })
+												        	  
+												          }
+														  
+														  
+														  function type1(){
+												        	  
+														        
+												        	  $.ajax({
+												        		  
+												        		  type:"POST",
+												        		  url:"drop.jsp",
+												        		  data:{"type1":$("#type1").val()},
+												        		  
+												        		  success:function(msg){
+												        			  var obj = JSON.parse(msg);
+												        			 
+												        			  type();
+												        		  },
+												        		  error(err){
+												        			  alertify.error('Error');
+												        		  }
+												        		  
+												        		  
+												        	  })
+												        	  
+												          }
+														 
+														  test();
+												          function test(){
+												        	  $.ajax({
+												        		  
+												        		  type:"GET",
+												        		  url:"drop.jsp",
+												        		  dataType:'JSON',
+												        		  cache: false,
+												        		  data:{"title":'title'},
+												        		  
+												        		  success:function(data){
+												        			  $('#titleModal').modal('hide'); 
+												        			
+												        			  $('#title2').empty();
+													        	       $('#title2').select('destroy')
+												        			  for(var i = 0; i< data.length; i++){
+												        				  $('#title2').append($("<option/>",
+												        			  {
+												        					  
+												        					 text: data[i].area, 
+												        					 
+												        					 
+												        			  }));  
+												        				  
+												        			  }
+												        			 
+												        		  },
+												        		  error(err){
+												        			  alert("error")
+												        		  }
+												        		  
+												        		    
+												        	  });
+												        	  
+												          } 
+												          
+												          
+												          type();
+												          function type(){
+												        	  $.ajax({
+												        		  
+												        		  type:"GET",
+												        		  url:"drop.jsp",
+												        		  dataType:'JSON',
+												        		  cache: false,
+												        		  data:{"type":'type'},
+												        		  
+												        		  success:function(data){
+												        			  $('#typeModal').modal('hide'); 
+												        			
+												        			  $('#mtype').empty();
+													        	       $('#mtype').select('destroy')
+												        			  for(var i = 0; i< data.length; i++){
+												        				  $('#mtype').append($("<option/>",
+												        			  {
+												        					  
+												        					 text: data[i].area, 
+												        					 
+												        					 
+												        			  }));  
+												        				  
+												        			  }
+												        			 
+												        		  },
+												        		  error(err){
+												        			  alert("error")
+												        		  }
+												        		  
+												        		    
+												        	  });
+												        	  
+												          } 
+												          
+												          marital();
+												          function marital(){
+												        	  $.ajax({
+												        		  
+												        		  type:"GET",
+												        		  url:"drop.jsp",
+												        		  dataType:'JSON',
+												        		  data:{"marital":'marital'},
+												        		  
+												        		  success:function(data){
+												        			  
+												        			  $('#maritalModal').modal('hide'); 
+												        			  $('#marital').empty();
+													        	       $('#marital').select('destroy')
+												        			 
+												        			  
+												        			  for(var i = 0; i< data.length; i++){
+												        				  $('#marital').append($("<option/>",
+												        			  {
+												        					  
+												        					 text: data[i].area, 
+												        					  
+												        			  }));  
+												        				  
+												        			  }
+												        			 
+												        		  },
+												        		  error(err){
+												        			  alert("error")
+												        		  }
+												        		  
+												        		  
+												        	  });
+												        	  
+												          }
+												          
+												          minis();
+												          function minis(){
+												        	  $.ajax({
+												        		  
+												        		  type:"GET",
+												        		  url:"drop.jsp",
+												        		  dataType:'JSON',
+												        		  data:{"minis":'minis'},
+												        		  
+												        		  success:function(data){
+												        			  
+												        			  $('#posModal').modal('hide'); 
+												        			  $('#minis').empty();
+													        	       $('#minis').select('destroy')
+												        			  
+												        			  for(var i = 0; i< data.length; i++){
+												        				  $('#minis').append($("<option/>",
+												        			  {
+												        					  
+												        					 text: data[i].area, 
+												        					  
+												        			  }));  
+												        				  
+												        			  }
+												        			 
+												        		  },
+												        		  error(err){
+												        			  alert("error")
+												        		  }
+												        		  
+												        		  
+												        	  });
+												        	  
+												          }
+												          
+												          
+														     occu();
+													          function occu(){
+													        	  $.ajax({
+													        		  
+													        		  type:"GET",
+													        		  url:"drop.jsp",
+													        		  dataType:'JSON',
+													        		  data:{"occu":'occu'},
+													        		  
+													        		  success:function(data){
+													        			  
+													        			  $('#occuModal').modal('hide'); 
+													        			  $('#occu').empty();
+														        	       $('#occu').select('destroy')
+													        			  
+													        			  for(var i = 0; i< data.length; i++){
+													        				  $('#occu').append($("<option/>",
+													        			  {
+													        					  
+													        					 text: data[i].area, 
+													        					  
+													        			  }));  
+													        				  
+													        			  }
+													        			 
+													        		  },
+													        		  error(err){
+													        			  alert("error")
+													        		  }
+													        		  
+													        		  
+													        	  });
+													        	  
+													          }
+													          
+													          
+															     job();
+														          function job(){
+														        	  $.ajax({
+														        		  
+														        		  type:"GET",
+														        		  url:"drop.jsp",
+														        		  dataType:'JSON',
+														        		  data:{"job":'job'},
+														        		  
+														        		  success:function(data){
+														        			  
+														        			  $('#jobModal').modal('hide'); 
+														        			  $('#job').empty();
+															        	       $('#job').select('destroy')
+														        			  
+														        			  for(var i = 0; i< data.length; i++){
+														        				  $('#job').append($("<option/>",
+														        			  {
+														        					  
+														        					 text: data[i].area, 
+														        					  
+														        			  }));  
+														        				  
+														        			  }
+														        			 
+														        		  },
+														        		  error(err){
+														        			  alert("error")
+														        		  }
+														        		  
+														        		  
+														        	  });
+														        	  
+														          }
+														          
+														          
+														          bs();
+														          function bs(){
+														        	  $.ajax({
+														        		  
+														        		  type:"GET",
+														        		  url:"drop.jsp",
+														        		  dataType:'JSON',
+														        		  data:{"bs":'bs'},
+														        		  
+														        		  success:function(data){
+														        			  
+														        			  $('#bsModal').modal('hide'); 
+														        			  $('#bs').empty();
+															        	       $('#bs').select('destroy')
+														        			  
+														        			  for(var i = 0; i< data.length; i++){
+														        				  $('#bs').append($("<option/>",
+														        			  {
+														        					  
+														        					 text: data[i].area, 
+														        					  
+														        			  }));  
+														        				  
+														        			  }
+														        			 
+														        		  },
+														        		  error(err){
+														        			  alert("error")
+														        		  }
+														        		  
+														        		  
+														        	  });
+														        	  
+														          }
+														          
+														          class11();
+														          function class11(){
+														        	  $.ajax({
+														        		  
+														        		  type:"GET",
+														        		  url:"drop.jsp",
+														        		  dataType:'JSON',
+														        		  data:{"class1":'class1'},
+														        		  
+														        		  success:function(data){
+														        			  console.log(data);
+														        			  $('#classModal').modal('hide'); 
+														        			  $('#class').empty();
+															        	       $('#class').select('destroy')
+														        			  
+														        			  for(var i = 0; i< data.length; i++){
+														        				  $('#class').append($("<option/>",
+														        			  {
+														        					  
+														        					 text: data[i].area, 
+														        					  
+														        			  }));  
+														        				  
+														        			  }
+														        			 
+														        		  },
+														        		  error(err){
+														        			  alert("class have error")
+														        		  }
+														        		  
+														        		  
+														        	  });
+														        	  
+														          }
+														          
+														          
+														          course();
+														          function course(){
+														        	  $.ajax({
+														        		  
+														        		  type:"GET",
+														        		  url:"drop.jsp",
+														        		  dataType:'JSON',
+														        		  data:{"course":'course'},
+														        		  
+														        		  success:function(data){
+														        			  
+														        			  $('#courseModal').modal('hide'); 
+														        			  $('#course').empty();
+															        	       $('#course').select('destroy')
+														        			  
+														        			  for(var i = 0; i< data.length; i++){
+														        				  $('#course').append($("<option/>",
+														        			  {
+														        					  
+														        					 text: data[i].area, 
+														        					  
+														        			  }));  
+														        				  
+														        			  }
+														        			 
+														        		  },
+														        		  error(err){
+														        			  alert("error")
+														        		  }
+														        		  
+														        		  
+														        	  });
+														        	  
+														          }
+														          
+														          region();
+														          function region(){
+														        	  $.ajax({
+														        		  
+														        		  type:"GET",
+														        		  url:"drop.jsp",
+														        		  dataType:'JSON',
+														        		  data:{"region":'region'},
+														        		  
+														        		  success:function(data){
+														        			  
+														        			  $('#regionModal').modal('hide'); 
+														        			  $('#region').empty();
+															        	       $('#region').select('destroy')
+														        			  
+														        			  for(var i = 0; i< data.length; i++){
+														        				  $('#region').append($("<option/>",
+														        			  {
+														        					  
+														        					 text: data[i].area, 
+														        					  
+														        			  }));  
+														        				  
+														        			  }
+														        			 
+														        		  },
+														        		  error(err){
+														        			  alert("error")
+														        		  }
+														        		  
+														        		  
+														        	  });
+														        	  
+														          }
+														          
+														          
+														          reason();
+														          function reason(){
+														        	  $.ajax({
+														        		  
+														        		  type:"GET",
+														        		  url:"drop.jsp",
+														        		  dataType:'JSON',
+														        		  data:{"reason":'reason'},
+														        		  
+														        		  success:function(data){
+														        			  
+														        			  $('#reasonModal').modal('hide'); 
+														        			  $('#reason').empty();
+															        	       $('#reason').select('destroy')
+														        			  
+														        			  for(var i = 0; i< data.length; i++){
+														        				  $('#reason').append($("<option/>",
+														        			  {
+														        					  
+														        					 text: data[i].area, 
+														        					  
+														        			  }));  
+														        				  
+														        			  }
+														        			 
+														        		  },
+														        		  error(err){
+														        			  alert("error")
+														        		  }
+														        		  
+														        		  
+														        	  });
+														        	  
+														          }
+														          
+														          function title2(){
+														        	  
+																        
+														        	  $.ajax({
+														        		  
+														        		  type:"POST",
+														        		  url:"drop.jsp",
+														        		  data:{"title1":$("#title1").val()},
+														        		  
+														        		  success:function(msg){
+														        			  var obj = JSON.parse(msg);
+														        			  
+														        			  
+														        			  test();
+														        			  
+														        		  },
+														        		  error(err){
+														        			  alertify.error('Error');
+														        		  }
+														        		  
+														        		  
+														        	  })
+														        	  
+														          }
+														          
+														          function region2(){
+														        	  
+																        
+														        	  $.ajax({
+														        		  
+														        		  type:"POST",
+														        		  url:"drop.jsp",
+														        		  data:{"region2":$("#region2").val()},
+														        		  
+														        		  success:function(msg){
+														        			  var obj = JSON.parse(msg);
+														        			 
+														        			  region();
+														        		  },
+														        		  error(err){
+														        			  alertify.error('Error');
+														        		  }
+														        		  
+														        		  
+														        	  })
+														        	  
+														          }
+														          
+														          function marital1(){
+														        	  
+																        
+														        	  $.ajax({
+														        		  
+														        		  type:"POST",
+														        		  url:"drop.jsp",
+														        		  data:{"marital1":$("#marital1").val()},
+														        		  
+														        		  success:function(msg){
+														        			  var obj = JSON.parse(msg);
+														        			 
+														        			  marital();
+														        		  },
+														        		  error(err){
+														        			  alertify.error('Error');
+														        		  }
+														        		  
+														        		  
+														        	  })
+														        	  
+														          }
+														          
+														          function minis1(){
+														        	  
+																        
+														        	  $.ajax({
+														        		  
+														        		  type:"POST",
+														        		  url:"drop.jsp",
+														        		  data:{"minis1":$("#minis1").val()},
+														        		  
+														        		  success:function(msg){
+														        			  var obj = JSON.parse(msg);
+														        			 
+														        			  minis();
+														        		  },
+														        		  error(err){
+														        			  alertify.error('Error');
+														        		  }
+														        		  
+														        		  
+														        	  })
+														        	  
+														          }
+														          
+														          function occu1(){
+														        	  
+																        
+														        	  $.ajax({
+														        		  
+														        		  type:"POST",
+														        		  url:"drop.jsp",
+														        		  data:{"occu1":$("#occu1").val()},
+														        		  
+														        		  success:function(msg){
+														        			  var obj = JSON.parse(msg);
+														        			 
+														        			  occu();
+														        		  },
+														        		  error(err){
+														        			  alertify.error('Error');
+														        		  }
+														        		  
+														        		  
+														        	  })
+														        	  
+														          }
+														          
+														          function job1(){
+														        	  
+																        
+														        	  $.ajax({
+														        		  
+														        		  type:"POST",
+														        		  url:"drop.jsp",
+														        		  data:{"job1":$("#job1").val()},
+														        		  
+														        		  success:function(msg){
+														        			  var obj = JSON.parse(msg);
+														        			 
+														        			  job();
+														        		  },
+														        		  error(err){
+														        			  alertify.error('Error');
+														        		  }
+														        		  
+														        		  
+														        	  })
+														        	  
+														          }
+														          
+														          function bs1(){
+														        	  
+																        
+														        	  $.ajax({
+														        		  
+														        		  type:"POST",
+														        		  url:"drop.jsp",
+														        		  data:{"bs1":$("#bs1").val()},
+														        		  
+														        		  success:function(msg){
+														        			  var obj = JSON.parse(msg);
+														        			 
+														        			  bs();
+														        		  },
+														        		  error(err){
+														        			  alertify.error('Error');
+														        		  }
+														        		  
+														        		  
+														        	  })
+														        	  
+														          }
+														          
+														          
+														          function class1(){
+														        	  
+																        
+														        	  $.ajax({
+														        		  
+														        		  type:"POST",
+														        		  url:"drop.jsp",
+														        		  data:{"class12":$("#class1").val()},
+														        		  
+														        		  success:function(msg){
+														        			  var obj = JSON.parse(msg);
+														        			 
+														        			  class11();
+														        		  },
+														        		  error(err){
+														        			  alertify.error('Error');
+														        		  }
+														        		  
+														        		  
+														        	  })
+														        	  
+														          }
+														          
+														          function reason1(){
+														        	  
+																        
+														        	  $.ajax({
+														        		  
+														        		  type:"POST",
+														        		  url:"drop.jsp",
+														        		  data:{"reason1":$("#reason1").val()},
+														        		  
+														        		  success:function(msg){
+														        			  var obj = JSON.parse(msg);
+														        			 
+														        			  reason();
+														        		  },
+														        		  error(err){
+														        			  alertify.error('Error');
+														        		  }
+														        		  
+														        		  
+														        	  })
+														        	  
+														          }
+														          
+														          
+														          function course1(){
+														        	  
+																        
+														        	  $.ajax({
+														        		  
+														        		  type:"POST",
+														        		  url:"drop.jsp",
+														        		  data:{"course1":$("#course1").val()},
+														        		  
+														        		  success:function(msg){
+														        			  var obj = JSON.parse(msg);
+														        			 
+														        			  course();
+														        		  },
+														        		  error(err){
+														        			  alertify.error('Error');
+														        		  }
+														        		  
+														        		  
+														        	  })
+														        	  
+														          }
+														          
+														          
+														
+														
+														</script>
+                                                
                                             </div>
                                             </div>
                                             </div>
@@ -930,14 +2870,13 @@
                 </div>
             </div>
         </div>
-    </div>
-</div>
+
 
 
 
 <!-- Warning Section Ends -->
 <!-- Required Jquery -->
-    <script type="text/javascript" src="assets/js/jquery/jquery.min.js"></script>    <script type="text/javascript" src="assets/js/jquery-ui/jquery-ui.min.js "></script>     <script type="text/javascript" src="assets/js/popper.js/popper.min.js"></script>     <script type="text/javascript" src="assets/js/bootstrap/js/bootstrap.min.js "></script>
+<!--     <script type="text/javascript" src="assets/js/jquery/jquery.min.js"></script>      --><script type="text/javascript" src="assets/js/jquery-ui/jquery-ui.min.js "></script>     <script type="text/javascript" src="assets/js/popper.js/popper.min.js"></script>     <script type="text/javascript" src="assets/js/bootstrap/js/bootstrap.min.js "></script>
 <!-- waves js -->
 <script src="assets/pages/waves/js/waves.min.js"></script>
 <!-- jquery slimscroll js -->
